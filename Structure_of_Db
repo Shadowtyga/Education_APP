@@ -1,0 +1,161 @@
+class Utilisateur {
+  int id;
+  String nom;
+  String prenom;
+  String matricule;
+  int age;
+  String sexe;
+  String anneeEtude;
+  String pseudo;
+
+  Utilisateur({
+    required this.id,
+    required this.nom,
+    required this.prenom,
+    required this.matricule,
+    required this.age,
+    required this.sexe,
+    required this.anneeEtude,
+    required this.pseudo,
+  });
+
+  void sInscrire() {
+    // Code pour s'inscrire
+  }
+
+  void seConnecter() {
+    // Code pour se connecter
+  }
+
+  void mettreAJourProfil() {
+    // Code pour mettre à jour le profil
+  }
+
+  void afficherInformationUtilisateur() {
+    // Code pour afficher les informations de l'utilisateur
+  }
+
+  void consulterContenu() {
+    // Code pour consulter le contenu
+  }
+
+  void participerQuiz() {
+    // Code pour participer au Quiz
+  }
+
+  void consulterResultat() {
+    // Code pour consulter le résultat
+  }
+}
+class Article {
+  int id;
+  String titre;
+  String description;
+  String contenu;
+  String lien;
+  String auteur;
+
+  Article({
+    required this.id,
+    required this.titre,
+    required this.description,
+    required this.contenu,
+    required this.lien,
+    required this.auteur,
+  });
+
+  void ajouterArticle() {
+    // Code pour ajouter un article
+  }
+
+  void mettreAJourArticle() {
+    // Code pour mettre à jour l'article
+  }
+
+  void supprimerArticle() {
+    // Code pour supprimer un article
+  }
+
+  void consulterArticle() {
+    // Code pour consulter un article
+  }
+}
+class Quiz {
+  int id;
+  String titre;
+  List<String> questions;
+  List<String> reponses;
+  int idQuestion;
+
+  Quiz({
+    required this.id,
+    required this.titre,
+    required this.questions,
+    required this.reponses,
+    required this.idQuestion,
+  });
+
+  void ajouterQuiz() {
+    // Code pour ajouter un quiz
+  }
+
+  void mettreAJourQuiz() {
+    // Code pour mettre à jour le quiz
+  }
+
+  void supprimerQuiz() {
+    // Code pour supprimer un quiz
+  }
+
+  void ajouterQuestions() {
+    // Code pour ajouter des questions
+  }
+
+  void modifierQuestion() {
+    // Code pour modifier une question
+  }
+
+  void supprimerQuestion() {
+    // Code pour supprimer une question
+  }
+}
+class Resultats {
+  int idReponse;
+  String texteResultat;
+  int score;
+
+  Resultats({
+    required this.idReponse,
+    required this.texteResultat,
+    required this.score,
+  });
+
+  void ajouterReponse() {
+    // Code pour ajouter une réponse
+  }
+
+  void modifierReponse() {
+    // Code pour modifier une réponse
+  }
+
+  void supprimerReponse() {
+    // Code pour supprimer une réponse
+  }
+
+  void synResultats() {
+    // Code pour synchroniser les résultats
+  }
+}
+class Administrateur {
+  void afficherLesResultats() {
+    // Code pour afficher les résultats
+  }
+
+  void modifierLeContenu() {
+    // Code pour modifier le contenu
+  }
+
+  void ajouterDuContenu() {
+    // Code pour ajouter du contenu
+  }
+}
